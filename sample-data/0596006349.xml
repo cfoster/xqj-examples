@@ -1,0 +1,10 @@
+<book isbn="0596006349">
+  <author>Walmsley, Priscilla</author>
+  <title>XQuery</title>
+  <genre>Computer</genre>
+  <price>38.50</price>
+  <publish_date>2007-03-30</publish_date>
+  <description>This in-depth tutorial not only walks you through
+  the XQuery specification, but also teaches you how to program with
+  this widely anticipated query language.</description>
+</book>

@@ -1,0 +1,10 @@
+<book isbn="059652112X">
+  <author>Kalin, Martin</author>
+  <title>Java Web Services: Up and Running</title>
+  <genre>Computer</genre>
+  <price>26.99</price>
+  <publish_date>2009-02-23</publish_date>
+  <description>With this example-driven book, you get a quick, practical,
+  and thorough introduction to Java's API for XML Web Services (JAX-WS)
+  and the Java API for RESTful Web Services (JAX-RS).</description>
+</book>

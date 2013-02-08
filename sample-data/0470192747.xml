@@ -1,0 +1,9 @@
+<book isbn="0470192747">
+  <author>Kay, Michael</author>
+  <title>XSLT 2.0 and XPath 2.0 (4th Edition)</title>
+  <genre>Computer</genre>
+  <price>33.99</price>
+  <publish_date>2008-06-03</publish_date>
+  <description>This book is primarily a practical reference
+  book for professional XSLT developers.</description>
+</book>

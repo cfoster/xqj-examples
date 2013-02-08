@@ -1,0 +1,9 @@
+<book isbn="0201771861">
+  <author>Rusty Harold, Elliotte</author>
+  <title>Processing XML with Java (SAX, DOM, JDOM, JAXP &amp; TrAX)</title>
+  <genre>Computer</genre>
+  <price>37.99</price>
+  <publish_date>2002-11-14</publish_date>
+  <description>Handing and processing XML in
+  the Java programming language.</description>
+</book>

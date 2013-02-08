@@ -1,0 +1,9 @@
+<book isbn="0321392795">
+  <author>Gray, Simon</author>
+  <title>Data Structures in Java</title>
+  <genre>Computer</genre>
+  <price>53.99</price>
+  <publish_date>2006-11-13</publish_date>
+  <description>From Abstract Data Types to the
+  Java Collections Framework.</description>
+</book>

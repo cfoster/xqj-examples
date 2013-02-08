@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>net.xqj.prague2013</groupId>
+  <artifactId>xqj-examples</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0.0</version>
+  <name>xqj-examples</name>
+
+  <description>BaseX and XQJ, The XQuery API for Java, sources</description>
+
+  <prerequisites>
+    <maven>2.2.1</maven>
+  </prerequisites>
+
+  <dependencies>
+    <dependency>
+      <groupId>net.xqj</groupId>
+      <artifactId>basex-xqj</artifactId>
+      <version>1.2.3</version>
+      <type>jar</type>
+    </dependency>
+  </dependencies>
+
+  <repositories>
+    <repository>
+      <id>xqj.net</id>
+      <url>http://xqj.net/maven</url>
+    </repository>
+  </repositories>
+
+</project>

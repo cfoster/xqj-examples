@@ -1,0 +1,9 @@
+<book isbn="0596003552">
+  <author>Pawson, Dave</author>
+  <title>XSL-FO: Making XML Look Good in Print</title>
+  <genre>Computer</genre>
+  <price>26.99</price>
+  <publish_date>2002-08-19</publish_date>
+  <description>Outlines XSL FO's strengths and weaknesses, provides
+  a tutorial and reference guide.</description>
+</book>
