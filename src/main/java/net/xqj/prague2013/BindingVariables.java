@@ -34,26 +34,14 @@ public class BindingVariables
       "xquery version '3.0';"+
       "declare variable $str as xs:string external := 'default';\n"+
       "declare variable $doc as document-node(element(e)) external;\n"+
-      "fn:concat('String: ', $str),\n"+
-      "fn:concat('Document: ', $doc)"
+      "$str, $doc"
     );
 
     // ... Bind String ...
     xqpe.bindString(new QName("str"), "Hello World", null);
 
     // ... Bind Document ...
-    xqpe.bindDocument(new QName("doc"), "<e>Hello World</e>", null, null);
-
-/**
-    XQPreparedExpression xqpe = xqc.prepareExpression(
-      "declare context item as xs:string external := 'my default value';" +
-      "."
-    );
-
-    xqpe.bindString(
-      XQConstants.CONTEXT_ITEM, "overridden value", null
-    );
-**/
+    xqpe.bindDocument(new QName("doc"), "<e>My document</e>", null, null);
 
     XQResultSequence rs = xqpe.executeQuery();
 
@@ -63,3 +51,16 @@ public class BindingVariables
     xqc.close();
   }
 }
+
+
+
+/**
+ XQPreparedExpression xqpe = xqc.prepareExpression(
+ "declare context item as xs:string external := 'my default value';" +
+ "."
+ );
+
+ xqpe.bindString(
+ XQConstants.CONTEXT_ITEM, "overridden value", null
+ );
+ **/
